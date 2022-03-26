@@ -1,0 +1,97 @@
+<head>
+	<link href="tablestyle.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Summary Table -->
+	<div class="table-container">
+		<h1 class="heading">Summary</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="w-5">#</th>
+					<th class="w-10">Status</th>
+					<th class="w-15">Case Reference</th>
+					<th>Data Obtained</th>
+					<th>Output Created</th>
+					<th>Case Outcome</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-label="#">1</td>
+					<td data-label="Status"><span class="lbl" id="complete">Complete</span></td>
+					<td data-label="Case Reference">123-1</td>
+					<td data-label="Data Obtained">Yes</td>
+					<td data-label="Output Created">Yes</td>
+					<td data-label="Case Outcome">Full Completion</td>
+				</tr>
+
+				<tr>
+					<td data-label="#">2</td>
+					<td data-label="Status"><span class="lbl" id="pending">Pending</span></td>
+					<td data-label="Case Reference">123-2</td>
+					<td data-label="Data Obtained">No</td>
+					<td data-label="Output Created">No</td>
+					<td data-label="Case Outcome">Pending</td>
+				</tr>
+
+				<tr>
+					<td data-label="#">3</td>
+					<td data-label="Status"><span class="lbl" id="exception">Exception</span></td>
+					<td data-label="Case Reference">123-3</td>
+					<td data-label="Data Obtained">No</td>
+					<td data-label="Output Created">No</td>
+					<td data-label="Case Outcome">System Exception</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- Additional Details -->
+	<div class="table-container">
+		<h1 class="heading">Additional Details</h1>
+
+		<!-- Performance table -->
+		<table class="table">
+			<thead>
+				<tr>
+					<th colspan="2">Application Performance</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="w-15-tl">App 1 Kill Count:</td>
+					<td class="data-cell">5</td>
+				</tr>
+
+				<tr>
+					<td class="w-15-tl">App 2 Kill Count:</td>
+					<td class="data-cell">3</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br />
+
+		<!-- Excceptions table -->
+		<table class="table"">
+			<thead>
+				<tr>
+					<th colspan="2">Exceptions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="w-15-tl">Business Exceptions:</td>
+					<td class="data-cell">7</td>
+				</tr>
+
+				<tr>
+					<td class="w-15-tl">System Exceptions:</td>
+					<td class="data-cell">4</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
